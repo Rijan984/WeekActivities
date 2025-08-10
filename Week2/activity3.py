@@ -15,7 +15,7 @@ class StringManipulator:
 name = StringManipulator("example")
 
 
-result = name.find_character('x')
+result = name.find_character(text="example", char='x')
 print("My lenght is:", name.lenFind())
 print("UpperCase:", name.upper_case() )
 
