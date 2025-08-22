@@ -1,0 +1,33 @@
+The data base of Yoobee College is designed to store the academic information of the 
+students including details of the students, lecturers, class code. This system will 
+store the details of the students enrollments, details of the teachers, and the class 
+room number where students will attend the class. Admin will able to controll the system by deleting users or 
+updating the details of the lecturer and class room. This system will help to get the details of the students. 
+The main entities are Students, Lecturers, Class Code, admin.
+
+Actors
+
+- Students
+- Lecturers
+- Admin
+
+
+Use Case
+
+Students
+- Create Account
+- View courses with assigned courses
+- View Class room number
+- Update thri account details
+
+Lecturers
+- View courses with assigned courses
+- View Class room number
+- Update their account details
+
+
+Admin
+- Delete Accounts
+- Update lecturer details
+- Add/update Class room no.
+
