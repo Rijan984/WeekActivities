@@ -18,7 +18,7 @@ Students
 - Create Account
 - View courses with assigned courses
 - View Class room number
-- Update thri account details
+- Update their account details
 
 Lecturers
 - View courses with assigned courses
