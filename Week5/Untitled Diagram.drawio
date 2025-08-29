@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.1">
+  <diagram name="Page-1" id="PX9Q98Ve2dCXUsX-Kc8K">
+    <mxGraphModel dx="1042" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NAuIcna0TvbaZucHIHgj-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NAuIcna0TvbaZucHIHgj-1" target="NAuIcna0TvbaZucHIHgj-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NAuIcna0TvbaZucHIHgj-1" value="User --&amp;gt; Signup Page:&amp;nbsp;&lt;div&gt;Enter User Details&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="150" y="110" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="NAuIcna0TvbaZucHIHgj-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NAuIcna0TvbaZucHIHgj-2" target="NAuIcna0TvbaZucHIHgj-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NAuIcna0TvbaZucHIHgj-2" value="Sign Up Page --&amp;gt; Authentication:&amp;nbsp;&lt;div&gt;validate credentials&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="420" y="110" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="NAuIcna0TvbaZucHIHgj-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="NAuIcna0TvbaZucHIHgj-4" target="NAuIcna0TvbaZucHIHgj-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NAuIcna0TvbaZucHIHgj-4" value="Authentication --&amp;gt; Database: Check the record to identify if the user is already exist or not" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="680" y="110" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="NAuIcna0TvbaZucHIHgj-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NAuIcna0TvbaZucHIHgj-6" target="NAuIcna0TvbaZucHIHgj-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NAuIcna0TvbaZucHIHgj-6" value="Database --&amp;gt; Add the details to database" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="150" y="350" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="NAuIcna0TvbaZucHIHgj-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NAuIcna0TvbaZucHIHgj-7" target="NAuIcna0TvbaZucHIHgj-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NAuIcna0TvbaZucHIHgj-7" value="Authentication --&amp;gt; Signup page: success/failure" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="420" y="350" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="NAuIcna0TvbaZucHIHgj-8" value="Signup page --&amp;gt; user:&amp;nbsp;&lt;div&gt;show result&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="680" y="350" width="150" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
