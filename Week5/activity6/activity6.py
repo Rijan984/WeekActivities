@@ -10,7 +10,7 @@ class user:
 
 def main():
     userDetail = user("Rijan", "rijan@gmail.com", "rijan12")
-    print(userDetail.getPassword()) #correct way to access private attribute but cant access it using userDetail.__password
+    print(userDetail.getPassword()) #correct way to access private attribute
     print(userDetail.name)
     print(userDetail._email) #accessible but not the correct way
     
